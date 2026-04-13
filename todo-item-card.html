@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Item Card</title>
+    <link rel="stylesheet" href="todo-item-card.css" />
+  </head>
+  <body>
+    <article class="card" data-testid="test-todo-card">
+      <div class="row">
+        <h2 class="title" data-testid="test-todo-title">Complete Assignment</h2>
+        <span class="badge high" data-testid="test-todo-priority">High</span>
+      </div>
+
+      <p class="meta" data-testid="test-todo-description">
+        Build a modern TodoCard UI as specified.
+      </p>
+
+      <div class="meta">
+        <time datetime="2026-03-18" data-testid="test-todo-due-date"
+          >Due March 18, 2026</time
+        >
+        <div aria-live="polite" data-testid="test-todo-time-remaining">
+          Due in 3 days
+        </div>
+      </div>
+
+      <div class="row">
+        <label>
+          <input type="checkbox" data-testid="test-todo-complete-toggle" />
+          Mark complete
+        </label>
+        <span class="status" data-testid="test-todo-status">Pending</span>
+      </div>
+
+      <ul class="tags" role="list" data-testid="test-todo-tags">
+        <li class="tag" data-testid="test-todo-tag-work">Work</li>
+        <li class="tag" data-testid="test-todo-tag-urgent">Urgent</li>
+      </ul>
+
+      <div class="actions" style="margin-top: 12px">
+        <button
+          data-testid="test-todo-edit-button"
+          aria-label="Edit task"
+          class="edit-button"
+        >
+          Edit
+        </button>
+        <button data-testid="test-todo-delete-button" aria-label="Delete task">
+          Delete
+        </button>
+      </div>
+    </article>
+
+    <script src="todo-item-card.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+     body {
+        font-family: system-ui, sans-serif;
+        background: #f6f7fb;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+      .card {
+        background: #fff;
+        width: 100%;
+        max-width: 460px;
+        padding: 20px;
+        border-radius: 16px;
+        box-shadow: 0 7px 30px rgba(0, 0, 0, 0.9);
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+      }
+      .title {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .badge {
+        padding: 4px 10px;
+        border-radius: 8px;
+        font-size: 12px;
+      }
+      .high {
+        background: #ffe4e4;
+        color: #a60000;
+      }
+      .meta {
+        color: #555;
+        margin: 8px 0px;
+      }
+      .tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-left: -40px;
+      }
+      .tag {
+        padding: 4px 8px;
+        background: #eef2ff;
+        border-radius: 8px;
+        font-size: 12px;
+        margin-right: 1px;
+        list-style-type: disc;
+        list-style-position: inside;
+      }
+      button {
+        padding: 6px 10px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .edit-button{
+        background-color: rgb(0, 81, 255);
+        color: white;
+      }
+      .actions {
+        display: flex;
+        gap: 8px;
+      }
+      .status {
+        background: #fff3cd;
+        padding: 4px 8px;
+        border-radius: 8px;
+      }
+      .complete {
+        text-decoration: line-through;
+        opacity: 0.6;
+      }
+  
